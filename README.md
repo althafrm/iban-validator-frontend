@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+**Setting up and Running the IBAN Validator Frontend (React):**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. **Clone the Repository:**
 
-## Available Scripts
+   Clone the repository containing the React frontend project to your local machine:
 
-In the project directory, you can run:
+   ```bash
+   git clone <repository-url>
+   cd <frontend-project-directory>
+   ```
 
-### `npm start`
+2. **Install Dependencies:**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   Navigate to the frontend project directory and install the required dependencies using npm or yarn:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   ```bash
+   cd iban-validator-frontend
+   npm install
+   ```
 
-### `npm test`
+3. **Environment Configuration:**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   Create an `.env` file and set the following environment variable for the API URL:
 
-### `npm run build`
+   ```bash
+   touch .env
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```
+   REACT_APP_API_BASE_URL=http://localhost:8000
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. **Start the Development Server:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   Start the React development server:
 
-### `npm run eject`
+   ```bash
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   IBAN Validator Frontend should now be accessible at `http://localhost:3000`.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. **Test Accounts**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    The following test accounts can be used to log in and test the application's functionality:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    ### Admin Accounts
 
-## Learn More
+    Email: admin1@example.com
+    Password: password
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    Email: admin2@example.com
+    Password: password
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    Email: admin3@example.com
+    Password: password
 
-### Code Splitting
+    ### User Accounts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    Email: user1@example.com
+    Password: password
 
-### Analyzing the Bundle Size
+    Email: user2@example.com
+    Password: password
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    Email: user3@example.com
+    Password: password
 
-### Making a Progressive Web App
+    Email: user4@example.com
+    Password: password
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    Email: user5@example.com
+    Password: password
